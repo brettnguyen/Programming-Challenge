@@ -1,0 +1,71 @@
+.formHolder {
+   background-color: #D3D3D3;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.needs-validation{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#registrationForm input[type="text"],
+#registrationForm select,
+#registrationForm input[type="checkbox"],
+#registrationForm input[type="email"] {
+    font-size: 12px;
+}
+
+#registrationForm #firstName,
+#registrationForm #lastName {
+    font-size: 14px;
+  
+}
+
+#registrationForm input[type="email"] {
+    font-style: italic;
+}
+
+
+#registrationForm #firstName:required::after,
+#registrationForm #lastName:required::after,
+#registrationForm #phone:required::after,
+#registrationForm #email:required::after,
+#registrationForm #acceptTerms:required::after {
+    color: red;
+    font-weight: bold;
+}
+
+
+#confirmationMessage {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #0d6efd;
+}
+
+.formHolder> h2 {
+    color: white;
+    background-color: #0d6efd;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#acceptTerms{
+    margin-top: 8px;
+}
+
+#specifyOther {
+    margin-top: 10px;
+}
+
+#successMessage{
+    margin-left: 50px;
+    margin-right: 50px;
+}
