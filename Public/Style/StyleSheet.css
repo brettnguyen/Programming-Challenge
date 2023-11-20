@@ -1,5 +1,5 @@
 .formHolder {
-   background-color: #D3D3D3;
+    background-color: #D3D3D3;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -19,6 +19,7 @@
 #registrationForm #firstName,
 #registrationForm #lastName {
     font-size: 14px;
+    font-weight: bold;
   
 }
 
@@ -68,4 +69,9 @@
 #successMessage{
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.footer{
+    font-size: 18px;
+    font-weight: bold;
 }
